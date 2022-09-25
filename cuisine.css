@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (prefers-reduced-motion: no-preference) { 
+    html {
+     scroll-behavior: smooth;
+     }
+    }
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.navbar{
+ background: #00F260;  
+background: -webkit-linear-gradient(to right, #0575E6, #00F260);  
+background: linear-gradient(to right, #0575E6, #00F260); 
+}
+h1{
+    color: white;
+}
+.para{
+    width: 1000px;
+    color: white;
+}
+.card-group{
+    width: 60%;
+}
+.card
+{
+    border: 3px solid white;
+    float: left;
+    width: 22%;
+    margin-left: 15px;
+    padding: 5px;
+    height: 30em;
+    text-align: justify;
+   
+}
